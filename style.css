@@ -12,7 +12,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    /*background-image: url(Imagens/Duel-Summoners-Summit-desktop-wallpaper-official-genshin-2.jpg); */
+    background-image: url(Imagens/Duel-Summoners-Summit-desktop-wallpaper-official-genshin-2.jpg);
 }
 
 /* Estiliza os títulos h1 */
@@ -113,6 +113,7 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+    opacity: 0.8;
 }
 
 @media (max-width: 768px) {

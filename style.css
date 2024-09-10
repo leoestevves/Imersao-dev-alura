@@ -15,6 +15,10 @@ body {
     background-image: url(Imagens/Duel-Summoners-Summit-desktop-wallpaper-official-genshin-2.jpg);
 }
 
+main {
+    margin-top: 9rem;
+}
+
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
@@ -105,8 +109,8 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+    background-color: #0e0e0e; /* Cor de fundo do rodapé */
+    color: #fcfcfc; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
@@ -114,6 +118,17 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
     opacity: 0.8;
+}
+
+.linkcopy {
+    text-decoration: none;
+    color: rgb(189, 188, 188);
+    font-weight: bold;
+}
+
+.linkcopy:hover {
+
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
